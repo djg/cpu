@@ -1,0 +1,14 @@
+[package]
+name = "cpu_module"
+version = "0.0.0"
+authors = ["Dan Glastonbury <dglastonbury@mozilla.com>"]
+publish = false
+
+links = "cpu_module"
+build = "build.rs"
+
+[dependencies]
+test_bench = { path = "../../../rs/test_bench" }
+
+[build-dependencies]
+cmake = "*"

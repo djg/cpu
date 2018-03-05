@@ -1,0 +1,8 @@
+[package]
+name = "test_bench"
+version = "0.0.0"
+authors = ["Dan Glastonbury <dglastonbury@mozilla.com>"]
+publish = false
+
+[dependencies]
+verilated = { path = "../verilated" }

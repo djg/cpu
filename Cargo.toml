@@ -1,0 +1,6 @@
+[workspace]
+members = [
+   "test/rs/cpu_module",
+   "rs/test_bench",
+   "rs/verilated",
+]
